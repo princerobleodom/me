@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $email_message, $headers);
     
     // Redirect to a thank-you page
-    header("Location: thank-you.html");
+    header("Location: admin.html");
     exit();
 }
 ?>
